@@ -166,7 +166,7 @@ function handleProjectFormSubmit(event) {
   projectNameInputEl.val('');
   projectTypeInputEl.val('');
   projectDateInputEl.val('');
-
+  //Hide the modal
   $("#exampleModal").modal("hide")
 }
 
